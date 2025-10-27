@@ -27,29 +27,4 @@ public class Pokemon {
         System.out.println("4) " + move4);
         System.out.println();
     }
-    
-    // Get methods 
-    public String getName(){ 
-        return name; 
-    }
-    
-    public int getLevel(){ 
-        return level; 
-    }
-    
-    public String getMove1(){ 
-        return move1;
-    }
-    
-    public String getMove2(){ 
-        return move2; 
-    }
-    
-    public String getMove3(){
-        return move3; 
-    }
-    
-    public String getMove4(){
-        return move4;
-    }
 }
