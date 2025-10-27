@@ -1,3 +1,6 @@
+//Author Jerald Huang
+//Date 2025-10-27
+
 public class Pokemon {
     private String name;
     private int level;
@@ -16,6 +19,15 @@ public class Pokemon {
         move4 = m4;
     }
 
+    void printPokemon () {
+        System.out.println(name + " (Level" + level + ")");
+        System.out.println("1) " + move1);
+        System.out.println("2) " + move2);
+        System.out.println("3) " + move3);
+        System.out.println("4) " + move4);
+        System.out.println();
+    }
+    
     // Get methods 
     public String getName(){ 
         return name; 
